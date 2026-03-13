@@ -1,24 +1,34 @@
 # 📝 Note Taking App
 
-A simple backend web application built with **Node.js**, **Express**, and **Microsoft SQL Server**, allowing users to register and store personal notes.
+A backend web application built with **Node.js**, **Express.js**, and **Microsoft SQL Server**.  
+This project allows users to register and store their personal notes in a database.
 
 ---
 
 ## 🚀 Features
 
-- ✅ User registration
-- ✅ Note creation and storage
-- ✅ Note listing (coming soon)
-- ❌ No login/authentication yet (coming in future)
+- User registration
+- Create and save notes
+- SQL Server database integration
+- REST API structure
+- Tested with Thunder Client
+
+### Planned Improvements
+
+- User login and authentication
+- Note listing
+- Note update and delete operations
+- Better validation and error handling
 
 ---
 
-## 📦 Technologies
+## 🛠 Technologies Used
 
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MSSQL (via `mssql` npm package)](https://www.npmjs.com/package/mssql)
-- [Thunder Client](https://www.thunderclient.com/) for testing
+- **Node.js**
+- **Express.js**
+- **Microsoft SQL Server**
+- **mssql** npm package
+- **Thunder Client**
 
 ---
 
@@ -26,9 +36,8 @@ A simple backend web application built with **Node.js**, **Express**, and **Micr
 
 ```bash
 note-taking-app/
-├── app.js            # Main Express app
-├── db.js             # Database configuration
+├── app.js
+├── db.js
 ├── .gitignore
 ├── package.json
 └── README.md
-```
